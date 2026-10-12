@@ -1,0 +1,40 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="628" fill="url(#bg)"/>
+
+  <text x="80" y="76" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2" fill="#2ea043">OPEN SOURCE &#183; CLAUDE CODE MOD</text>
+
+  <!-- a docked pane mockup, not a terminal card - this one draws a real UI surface -->
+  <rect x="80" y="100" width="1040" height="178" rx="10" fill="#1c2128" stroke="#30363d"/>
+  <rect x="80" y="100" width="1040" height="34" rx="10" fill="#21262d"/>
+  <rect x="80" y="117" width="1040" height="17" fill="#21262d"/>
+  <text x="104" y="123" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9">Test Pulse</text>
+  <circle cx="1096" cy="117" r="7" fill="none" stroke="#6e7681" stroke-width="1.4"/>
+  <line x1="1092.5" y1="113.5" x2="1099.5" y2="120.5" stroke="#6e7681" stroke-width="1.4"/>
+  <line x1="1099.5" y1="113.5" x2="1092.5" y2="120.5" stroke="#6e7681" stroke-width="1.4"/>
+
+  <text x="104" y="166" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#8b949e">npm test</text>
+  <text x="104" y="192" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#3fb950">&#10004; passing &#183; 4m ago &#183; took 2.3s</text>
+  <text x="104" y="218" font-family="Consolas, 'Courier New', monospace" font-size="18" xml:space="preserve"><tspan fill="#3fb950">&#9679;&#9679;&#9679;&#9679;</tspan><tspan fill="#f85149">&#10007;</tspan><tspan fill="#3fb950">&#9679;&#9679;</tspan><tspan fill="#6e7681">  last 7 runs</tspan></text>
+
+  <rect x="104" y="236" width="150" height="28" rx="5" fill="#238636"/>
+  <text x="179" y="254" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f0f6fc" text-anchor="middle">Run tests now</text>
+
+  <text x="600" y="350" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="37" fill="#f0f6fc" text-anchor="middle">a real panel, a real gate,</text>
+  <text x="600" y="394" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="37" fill="#f0f6fc" text-anchor="middle">not just another toast.</text>
+  <text x="600" y="430" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#6e7681" text-anchor="middle">refuses a push while the last run is known to be failing</text>
+
+  <g transform="translate(600,488)" stroke="#2ea043" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-13 -8 L-13 6 C-13 11 -7 15 0 17 C7 15 13 11 13 6 L13 -8 L0 -13 Z"/>
+    <path d="M-5 2 L-1.5 6 L5.5 -3"/>
+  </g>
+
+  <text x="600" y="542" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc" text-anchor="middle">test-pulse</text>
+  <text x="600" y="568" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6e7681" text-anchor="middle">github.com/thisismairaj/test-pulse</text>
+</svg>
