@@ -1,0 +1,10 @@
+{
+  "name": "test-pulse",
+  "description": "A live test-health dashboard: tracks pass/fail history for npm test, warns before a push with a known-failing last run, and opens a real panel with /test-pulse.",
+  "owner": { "name": "thisismairaj", "url": "https://github.com/thisismairaj" },
+  "plugins": [{
+    "name": "test-pulse",
+    "source": "./",
+    "description": "A live test-health dashboard: tracks pass/fail history for npm test, warns before a push with a known-failing last run, and opens a real panel with /test-pulse."
+  }]
+}
