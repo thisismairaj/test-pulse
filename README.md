@@ -7,6 +7,14 @@
 
 ---
 
+## Why this matters
+
+**Code that looks done and code that's actually been tested are not the same thing, and it's easy to lose track of which one you're looking at mid-session.** When an agent, or you moving fast, is making changes across several files, "did the tests pass after that last edit" is a question that's cheap to skip and expensive to be wrong about once it's pushed.
+
+test-pulse keeps the answer visible instead of implicit. It remembers the last real result, surfaces it in a real panel instead of a toast you glance past, and refuses `git push` outright when that last recorded run failed, with the reason and how long ago it failed.
+
+**One honest limit:** the push gate only sees `git push` run as a Bash tool call inside Claude Code, and it only knows about runs it actually recorded. It protects your agent-driven workflow, not a `git push` you type directly in your own terminal, and it has nothing to say about a test suite it never saw run.
+
 ## What it does
 
 Three things, working off the same history:
